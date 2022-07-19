@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Courgette&family=Dancing+Script:wght@400;489;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Courgette&family=Merienda:wght@400;700&display=swap');
-
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Dancing Script', 'cursive';
 }
 
 nav{
@@ -16,9 +14,7 @@ nav{
     padding: 0 12px;
     justify-content: center;
     font-size: 35px;
-    font-family: 'Charm', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', 'cursive';
     background: linear-gradient(to top, #00000092, #2d2d2d); 
 }
 
@@ -36,7 +32,7 @@ nav ul{
     display: grid;
     grid-template-rows: repeat(3, 10vw);
     grid-template-columns: repeat(3, 10vw);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dancing Script', 'cursive';
     position: relative;
 }
 
@@ -61,9 +57,7 @@ nav ul{
 .gameInfo{
     padding: 0 34px;
     color: #a1abef;
-    font-family: 'Charm', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Merienda', cursive;
+    font-family: 'Dancing Script', 'cursive';
 }
 
 .gameInfo h1{
@@ -72,7 +66,7 @@ nav ul{
 
 .imgbox img{
     display: flex;
-    width: 0;
+    width: 0px;
     transition: width ease-in-out;
     
 }
@@ -99,9 +93,7 @@ nav ul{
     background: #f3e7f9;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'Charm', cursive;
-    font-family: 'Courgette', cursive;
-    font-family: 'Merienda', cursive;
+    font-family: 'Dancing Script', 'cursive';
     font-size: 16px;
     font-weight: bolder;
 }
